@@ -1,3 +1,5 @@
+const StyleLintPlugin = require('stylelint-webpack-plugin')
+
 module.exports = {
   // 选项...
   chainWebpack: (config) => {
@@ -10,5 +12,13 @@ module.exports = {
         options.cache = false
         return options
       }).end()
+    config.plugin('stylelint')
+      .use(StyleLintPlugin, [
+        {
+          files: ['./src/**/*.{css,scss,vue}'],
+          fix: false,
+          cache: false,
+        }
+      ])
   }
 }

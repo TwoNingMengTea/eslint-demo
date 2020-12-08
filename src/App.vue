@@ -2,6 +2,8 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="id2"></div>
+    <div id="id3"></div>
   </div>
 </template>
 
@@ -67,12 +69,21 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    color: #2c3e50;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 60px;
+    text-align: center;
+
+    #id2 {
+      color: #2c3e50;
+    }
+
+    #id3 {
+      color: #2c3e50;
+    }
+  }
+
 </style>
