@@ -32,7 +32,7 @@ export default {
       console.log(i)
       console.log(arr[i])
     }
-    let foo = () =>({ bar: 0 })
+    let foo = () => ({ bar: 0 })
     function foo2() { return true }
 
     if (foo) {
