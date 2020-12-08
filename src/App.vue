@@ -18,7 +18,7 @@ export default {
     let a = true
     if (a) return 123
     let arr = [1, 2]
-    let obj = {name: 123, age: 12};
+    let obj = {name: 123, age: 12}
     let str = '123'
     this.test()
     if (a) console.log(1)
@@ -32,7 +32,7 @@ export default {
       console.log(i)
       console.log(arr[i])
     }
-    let foo = () => ({ bar: 0 })
+    let foo = () =>({ bar: 0 })
     function foo2() { return true }
 
     if (foo) {
