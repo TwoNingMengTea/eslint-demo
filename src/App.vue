@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
 #app {
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -75,11 +75,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   margin-top: 60px;
   text-align: center;
-
 }
-
-#id2 {
-  color: #2c3e50;
-}
-
 </style>
